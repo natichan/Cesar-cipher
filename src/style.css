@@ -5,7 +5,8 @@
 }
 .h {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(100, 42, 9);
+  background: white;
+  color: rgb(9, 26, 100);
   text-shadow: 10px 10px 20px rgba(2, 1, 19, 0.945);
   font-size: 2.5em;/* pixels/16 (default size en navegadores)= em */
 }
@@ -21,9 +22,9 @@
 }
 .juego {
   font-family: Arial, Helvetica, sans-serif;
-  color:rgb(46, 20, 192);
+  color:rgb(231, 230, 235);
   border: solid rgba(10, 51, 184, 0.404);
-  background-color: rgba(17, 138, 160, 0.445);
+  background-color: rgba(17, 50, 160, 0.952);
   margin: 2%;
   padding: 2%;
   width: 60%;

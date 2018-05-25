@@ -3,36 +3,33 @@
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
+
 </head>
-<body>
-  
-  <section class="h">
-      <h1> Codifica tus mensajes con ¡Caesar Cipher!</h1>
-       
-      <main class="p">
+  <body class= "b"></body><!--Definiendo el background -->
+
+        <h1 class="h"> Sé un agente secreto con ¡Caesar Cipher!</h1><!--Clase para el titulo -->
         
-       <p>¿Tienes miedo de que descubran tus planes para la fiesta sorpresa?
-       ¡No te preocupes más! Acá jugarás a ser un agente secreto organizando
-       una fiesta de cumpleaños sorpresa con Caesar Cipher. Manda tus mensajes en un súper código secreto, de esta manera 
-       sólo podrán descrifrar el mensaje las personas que tu selecciones. Sólo debes enviar el link de
-       la página a los invitados y <strong>¡Que empiece la fiesta!</strong></p> <!--Explicando página -->
+          <main class="juego">
+              <h2>¡Cifra o descifra tu mensaje secreto!</h2>
 
-      </main>
+              <textarea id= "mensaje1" class= "caja" placeholder= "En este cuadro escribre el mensaje que quieres cifrar o descifrar"></textarea><br>
+               <!--Donde escriben el texto -->
+              <textarea id= "mensaje2" placeholder= "Elige un número"></textarea><br> 
+              <!--Descifrar -->
+              
+              <button id= "code" onclick="myFunction()">Cifrar</button><!--Botón para cifrar -->
+              <button id= "decode" onclick="myFunction1()">Descifrar</button><br><!--Botón para descifrar -->
 
-     <div>
-      <h2>¡Codifica o descifra tu mensaje secreto!</h2>
+              <textarea id="mensaje3" placeholder = "Resultado del mensaje"></textarea><br> 
+              <!--Resultado de cifrar o descifrar -->
+          </main>
 
-      <input type="text"> <!--Donde escriben el texto -->
-      <button id= "code" onclick="myFunction()">Cifrar</button><!--Botón para cifrar -->
-      <button id= "decode" onclick="myFunction1()">Descifrar</button><!--Botón para descifrar -->
+    
+    <div id="root"></div>
 
-        </div>
-  </section>
-  
-  <div id="root"></div>
-
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
-</body>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+    
+  </body>
 </html>

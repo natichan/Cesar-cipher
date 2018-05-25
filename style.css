@@ -1,10 +1,32 @@
-.h {
+.b {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/26/13/19/block-chain-1224025_960_720.png");/*cambiar opacity*/
+  background-size: 100%;  
   text-align: center;
 }
+.h {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 42, 9);
+  text-shadow: 10px 10px 20px rgba(2, 1, 19, 0.945);
+  font-size: 2.5em;/* pixels/16 (default size en navegadores)= em */
+}
 
-#cipher {
-    border: dotted blue;
-  }
-#decipher {
-    border: dashed green;
-  }
+#mensaje1{
+  width: 500px;
+  height: 100px;
+}
+
+#mensaje3{
+    width: 500px;
+    height: 100px;
+}
+.juego {
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(46, 20, 192);
+  border: solid rgba(10, 51, 184, 0.404);
+  background-color: rgba(17, 138, 160, 0.445);
+  margin: 2%;
+  padding: 2%;
+  width: 60%;
+  display: inline-block;
+}
+

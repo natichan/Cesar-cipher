@@ -1,1 +1,10 @@
-/* Acá va tu código */
+.h {
+  text-align: center;
+}
+
+#cipher {
+    border: dotted blue;
+  }
+#decipher {
+    border: dashed green;
+  }

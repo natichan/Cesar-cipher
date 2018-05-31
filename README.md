@@ -1,6 +1,12 @@
 # Cifrado César
 
- Si quieres soprender a esa persona especial, ocupa esta nweb que te ayudará a guardar todos tus secretos. Puedes crear un grupo donde tus mensajes irán cifrados y sólo las personas que tu selecciones lo podrán descifrar. No temas que no habrá forma de que te descubran. ¡Envía mensajes y que comience la fiesta!
+Está página te convertirá en un agente secreto. Puedes crear mensajes cifrados y sólo las personas que tu selecciones lo podrán descifrar. No temas que no habrá forma de que te descubran.
+ 
+Envía el link de esta página por email, whatssap o como tu quieras, así podrán resolver tu código y enviarte uno de vuelta.
 
-#Explicación
-Manda tus mensajes en un súper código secreto, de esta manera sólo podrán descrifrar el mensaje las personas que tu selecciones. Envía el link de esta página a tus invitados por email, whatssap o como tu quieras, así ellos podrán resolver tu código y enviarte uno de vuelta.
+ ¿Cómo funciona?
+ Debes escribir el mensaje que desees en el primer recuadro y hacer click en cifrar si quieres que se transforme en un código secreto, o descifrar si quieres descubrir el mensaje que han enviado. 
+ 
+ La casilla que requiere un número te ayudara a fijar el desplazamiento del código, por ejemplo si escoges 3 el abecedario comenzará en la letra D, así tu mensaje se irá codificando. Por esto es importante que cuando envíes el número de desplazamiento junto con el mensaje y el link de la página.
+
+ ¡Espero que lo disfrutes y te diviertas!

@@ -4,7 +4,7 @@ window.cipher = {
     //creo una variable para guardar el mensaje cifrado.
     for (let index = 0; index < message.length; index++){ 
     //recorro mensaje con un loop.
-        let asciiPosition = message.charCodeAt(index);
+        let asciiPosition = message.toUpperCase().charCodeAt(index);
       //charCodeAt me da el numero ascii del mensaje, y la guardo en una variable.
         asciiPosition = ((asciiPosition - 65 + llave) %26 + 65);
         //aplico formula para que me de el caracter. 
@@ -21,14 +21,10 @@ window.cipher = {
   decode: (message, llave) => {
 
     let textCipher = "";
-    //creo una variable para guardar el mensaje cifrado.
     for (let index = 0; index < message.length; index++){ 
-    //recorro mensaje con un loop.
-        let asciiPosition = message.charCodeAt(index);
-      //charCodeAt me da el numero ascii del mensaje, y la guardo en una variable.
-        asciiPosition = ((asciiPosition + 65 - llave) %26 - 65);
-        //aplico formula para que me de el caracter. 
-        //Vamos a sacar el residuo de la posicion dentro del codigo ascii para llevarlo al codigo humano
+        let asciiPosition = message.toUpperCase().charCodeAt(index);
+        asciiPosition = ((asciiPosition + 65 - llave) %26 + 65);
+        //aplico formula para que me de el caracter, pero le resto la llave para que retroceda retrocede. 
         let numberToString = String.fromCharCode (asciiPosition);
         //Tomo el codigo ascii y me da una letra
        if (asciiPosition >=65 && asciiPosition <= 90)

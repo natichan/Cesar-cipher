@@ -2,33 +2,48 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css"/>
 
 </head>
   <body class= "b"><!--Definiendo el background -->
 
-        <h1 class="h"> Sé un agente secreto con ¡Caesar Cipher!</h1><!--Clase para el titulo -->
+        <!--Titulo -->
+        <h1 class="h"> Sé un agente secreto con ¡Cifrado César!</h1>
         
           <main class="juego">
+            
               <h2>¡Cifra o descifra tu mensaje secreto!</h2>
-                <p><strong>Acá jugarás a ser un agente secreto "Caesar Cipher".<br> 
-                Manda tus mensajes en un súper código secreto, de esta manera sólo podrán descrifrar 
-                el mensaje las personas que tu selecciones.</strong></p><br>
-    
-              <textarea id= "mensaje1" class= "caja" placeholder= "En este cuadro escribre el mensaje que quieres cifrar o descifrar"></textarea><br>
-               <!--Donde escriben el texto -->
-              <textarea id= "mensaje2" placeholder= "Elige un número"></textarea><br> 
-              <!--Descifrar -->
-              
-              <button id= "code" onclick="myFunction()">Cifrar</button><!--Botón para cifrar -->
-              <button id= "decode" onclick="myFunction1()">Descifrar</button><br><!--Botón para descifrar -->
 
-              <textarea id="mensaje3" placeholder = "Resultado del mensaje"></textarea><br> 
+                <!--Explicación cifrado-->
+                <p><strong>Acá jugarás a ser un agente secreto "Cifrado César".<br> 
+
+                Manda tus mensajes en un súper código secreto, de esta manera sólo podrán descrifrarlo
+                las personas que tu selecciones.</strong></p><br>
+
+              <!--Donde escriben el texto a cifrar o descifrar-->
+              <textarea id= "message1" class= "caja" placeholder= "Cifrar o descifrar">"En este cuadro escribe el mensaje que quieres cifrar o descifrar"</textarea><br>
+               
+               <!--Desplazamiento -->
+              <label>Llave</label>
+              <input id= "key" placeholder= "Desplazamiento.">Elige un número.<br> 
+              
+              
+              <input type="button" value="Cifrar" onclick="myFunction()"><!--Botón para cifrar -->
+              <input type="button" value="Descrifrar" onclick="myFunction2()"><!--Botón para cifrar -->
+              <br> 
+
               <!--Resultado de cifrar o descifrar -->
+              <textarea id="result" placeholder = "Resultado">Resultado del mensaje</textarea><br> 
+              
 
               <p><strong>Envía el link de esta página a tus invitados por email, whatssap o como tu quieras, así ellos podrán
-                resolver tu código y enviarte uno de vuelta.</strong></p><br>
+                resolver tu código y enviarte uno de vuelta.</strong></p><br> 
+                
+              <p>¡Para que el mensaje pueda ser descifrado recuerda dar la llave de desplazamiento
+                a la persona que le envías el mensaje!.</p><br>
+                
           </main>
 
     

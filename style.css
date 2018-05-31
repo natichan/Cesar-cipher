@@ -11,14 +11,21 @@
   font-size: 2.5em;/* pixels/16 (default size en navegadores)= em */
 }
 
-#mensaje1{
+#message{
   width: 500px;
   height: 100px;
+  margin: 1px;
 }
 
-#mensaje3{
+#key{
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+}
+#result{
     width: 500px;
     height: 100px;
+    margin: 10px;
 }
 .juego {
   font-family: Arial, Helvetica, sans-serif;

@@ -1,11 +1,10 @@
 .b {
-  background-image: url("https://cdn.pixabay.com/photo/2018/05/16/22/33/matrix-3407242_960_720.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2018/01/12/16/45/code-3078609_960_720.jpg");
   background-size: 100%;  
   text-align: center;
 }
 .h {
   font-family: Arial, Helvetica, sans-serif;
-  background: white;
   color: rgb(9, 26, 100);
   text-shadow: 10px 10px 20px rgba(2, 1, 19, 0.945);
   font-size: 2.5em;/* pixels/16 (default size en navegadores)= em */
